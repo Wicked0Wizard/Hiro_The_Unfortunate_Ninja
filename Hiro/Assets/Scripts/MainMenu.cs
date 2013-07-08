@@ -1,3 +1,5 @@
+// By Luke McDonald
+
 using UnityEngine;
 using System.Collections;
 
@@ -15,6 +17,7 @@ public class MainMenu : MonoBehaviour {
 	
 	//handle graphic out put.
 	void OnGUI () {
+		GUI.Label(new Rect(20.0f,20.0f,200.0f, 200.0f), "Rasmussen College");
 		GUI.Label(new Rect(0.0f,0.0f,200.0f, 200.0f), "Welcome to Hiro!");
 	}
 }
