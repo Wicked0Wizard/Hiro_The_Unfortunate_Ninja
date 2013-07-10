@@ -19,5 +19,6 @@ public class MainMenu : MonoBehaviour {
 	void OnGUI () {
 		GUI.Label(new Rect(20.0f,20.0f,200.0f, 200.0f), "Rasmussen College");
 		GUI.Label(new Rect(0.0f,0.0f,200.0f, 200.0f), "Welcome to Hiro!");
+		GUI.Label(new Rect(50.0f,50.0f,200.0f, 200.0f), "Quite being late for class dummy, yes you luke!");
 	}
 }
